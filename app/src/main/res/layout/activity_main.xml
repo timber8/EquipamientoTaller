@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="16dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+android:orientation="vertical"
+tools:context="com.example.juan.equipamientotaller.MainActivity"
+android:weightSum="1">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="15dp"
+    android:text="@string/Textousu"/>
+
+<EditText
+    android:id="@+id/intronom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="15dp"
+    android:inputType="text"
+    android:hint="@string/Intronom" />
+
+<EditText
+    android:id="@+id/intromat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="15dp"
+    android:inputType="number"
+    android:hint="@string/Intromat" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp"
+    android:id="@+id/acceso1"
+    android:text="@string/Boton8"
+    android:onClick="acceso1" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="15dp"
+    android:text="@string/Textoadmin"/>
+
+<EditText
+    android:id="@+id/introclave"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="15dp"
+    android:inputType="textPassword"
+    android:hint="@string/Introclave" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="15dp"
+    android:id="@+id/acceso2"
+    android:text="@string/Boton8"
+    android:onClick="acceso2" />
+
+</LinearLayout>

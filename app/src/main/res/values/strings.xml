@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Equipamiento Taller</string>
+    <string name="Introeq">Equipo...</string>
+    <string name="Introcod">Codigo...</string>
+    <string name="Boton1">Actualizar</string>
+    <string name="Boton2">Borrar Equipo</string>
+    <string name="Boton3">Insertar</string>
+    <string name="Boton4">Listado</string>
+    <string name="Boton5">Consultar</string>
+    <string name="Boton6">Reservar</string>
+    <string name="Boton7">Devolver</string>
+
+    <string name="Textcons">Consulta</string>
+
+    <string name="Textousu">Acceso como alumno:</string>
+    <string name="Intronom">Introduce tu nombre</string>
+    <string name="Intromat">Introduce tu matricula</string>
+    <string name="Boton8">Acceder</string>
+    <string name="Textoadmin">Acceso como administrador:</string>
+    <string name="Introclave">Introduce clave administrador</string>
+
+</resources>
